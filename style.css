@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    /* max-width: 85vw; */
+    /* margin: 0 auto; */
+}
+header{
+    box-shadow: 5px 5px 5px rgb(226, 224, 224);
+    height: 100px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-left: 15vh;
+    z-index: 2;
+}
+.top_section {
+    display: flex;
+    max-width: 85vw;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.hero{
+    display: grid;
+    padding: 50px;
+}
+.offer {
+    background-color: rgb(14, 217, 14);
+    padding: 8px;
+    width: max-content;
+    height: max-content;
+    
+}
+h1{
+    font-size: 80px;
+    font-weight: 100;
+}
+.des {
+    font-size: 50px;
+}
+.explore {
+    padding: 8px;
+    background-color: antiquewhite;
+    width: max-content;
+    height: max-content;
+}
+.section_two {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 85vw;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 50px;
+    height: 200px;
+    box-shadow: 0px 5px 6px rgb(174, 170, 170) ;
+}
+.box{
+    display: flex;
+    /* padding: 10px; */
+}
+.text h4 {
+    font-size: larger;
+}
+.text {
+    padding: 10px;
+}
+.menu {
+    max-width: 85vw;
+    margin: 70px auto;
+    text-align: center;
+    
+}
+.menulogo {
+    background-color: rgb(32, 214, 32);
+    padding: 8px;
+}
+.menu h3 {
+    margin: 60px;
+    font-size: 25px;
+}
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+.img1 {
+    grid-area: I1;
+}
+.img2 {
+    grid-area: I2;
+}.img3 {
+    grid-area: I3;
+}.img4 {
+    grid-area: I4;
+}.img5 {
+    grid-area: I5;
+}.img6 {
+    grid-area: I6;
+}.img7 {
+    grid-area: I7;
+}
+.grid img {
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+
+}
+.grid img:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+footer {
+    /* max-width: 85vw; */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul{
+    list-style-type: none;
+    padding: 10px;
+}
+h5 {
+    font-size: 25px;
+    color: rgb(91, 91, 91);
+}
